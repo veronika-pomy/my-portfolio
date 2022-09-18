@@ -15,6 +15,34 @@ li {
     padding-right: 3em;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+    gap: 1em;
+}
+
+button {
+    width: 4em;
+    height: 2em;
+}
+
+button:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+input {
+    width: 20em;
+    height: 1.5em;
+}
+
+textarea {
+    width: 40em;
+    height: 20em;
+    
+}
+
 .contact {
     font-weight: bold;
 }
@@ -77,7 +105,7 @@ img {
  }
 
  .contacts {
-    padding-top: 35em;
+    padding-top: 7em;
     font-style: italic;
     background-color: mintcream;
  }
